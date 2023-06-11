@@ -1,27 +1,31 @@
 import React from "react";
 import { Avatar, Card, Grid, Stack, Typography } from "@mui/material";
-import hero200 from "./hero200.jpeg";
-import hero300 from "./hero300.jpeg";
-import hero400 from "./hero400.jpeg";
-import hero500 from "./hero500.jpeg";
-import hero600 from "./hero600.jpeg";
+import hero200 from "./hero200.png";
+import hero300 from "./hero300.png";
+import hero400 from "./hero400.png";
+import hero500 from "./hero500.png";
 
 function Hero() {
   return (
-    <Stack bgcolor="primary.main" p="32px" alignItems="center" component="header">
-      <Card sx={{ maxWidth: 1200 }} component='article' raised>
+    <Stack
+      bgcolor="primary.main"
+      p="32px"
+      alignItems="center"
+      component="header"
+    >
+      <Card sx={{ maxWidth: 1200 }} component="article" raised>
         <Grid container alignItems="center" textAlign="center" spacing={2}>
-          <Grid item xs={12} sm={5} md={3} component='figure'>
+          <Grid item xs={12} sm={5} md={3} component="figure">
             <Avatar
               alt=""
               variant="rounded"
-              src={hero200}
+              src={hero500}
               srcSet={`
               ${hero200} 200w, 
               ${hero300} 300w, 
               ${hero400} 400w, 
-              ${hero500} 500w, 
-              ${hero600} 600w`}
+              ${hero500} 500w 
+              `}
               sx={{ height: "auto", width: "100%" }}
             />
           </Grid>
