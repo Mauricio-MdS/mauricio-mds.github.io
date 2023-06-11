@@ -11,7 +11,7 @@ function Hero() {
     <Stack bgcolor="primary.main" p="32px" alignItems="center" component="header">
       <Card sx={{ maxWidth: 1200 }} component='article' raised>
         <Grid container alignItems="center" textAlign="center" spacing={2}>
-          <Grid item xs={12} sm={6} md={3} component='figure'>
+          <Grid item xs={12} sm={5} md={3} component='figure'>
             <Avatar
               alt=""
               variant="rounded"
@@ -25,7 +25,7 @@ function Hero() {
               sx={{ height: "auto", width: "100%" }}
             />
           </Grid>
-          <Grid item xs={12} sm={6} md={9} p={1}>
+          <Grid item xs={12} sm={7} md={9} p={1}>
             <Typography variant="h2" content="h1" gutterBottom>
               Full Stack Developer
             </Typography>
