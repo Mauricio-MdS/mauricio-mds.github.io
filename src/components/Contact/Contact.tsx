@@ -1,8 +1,8 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
-import LinkedinButton from "./LinkedinButton";
-import GithubButton from "./GithubButton";
-import MailButton from "./MailButton";
+import { AiFillLinkedin, AiOutlineLinkedin } from "react-icons/ai";
+import { VscGithubInverted, VscGithub, VscMailRead, VscMail } from "react-icons/vsc";
+import ContactButton from "./ContactButton";
 
 function Contact() {
   return (
@@ -11,9 +11,24 @@ function Contact() {
         Contact me
       </Typography>
       <Stack direction="row" spacing={1}>
-        <LinkedinButton/>
-        <GithubButton/>
-        <MailButton/>
+        <ContactButton
+          link="https://www.linkedin.com/in/mauricio-mds/"
+          label="Linkedin"
+          HoverIcon={AiFillLinkedin}
+          Icon={AiOutlineLinkedin}
+        />
+        <ContactButton
+          link="https://github.com/mauricio-mds"
+          label="Github"
+          HoverIcon={VscGithubInverted}
+          Icon={VscGithub}
+        />
+        <ContactButton
+          link="mailto:mauricio.martins.gmail.com"
+          label="Email"
+          HoverIcon={VscMailRead}
+          Icon={VscMail}
+        />
       </Stack>
     </Stack>
   );
