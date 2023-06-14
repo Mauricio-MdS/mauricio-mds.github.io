@@ -21,13 +21,13 @@ function Portfolio() {
       p="16px"
     >
       <Typography variant="h3" component="h2" gutterBottom>
-        How I code
+        Projects
       </Typography>
       <Card component="article">
         <CardContent>
           <CardMedia sx={{ height: 140 }} image={githubImg} title="" />
           <Typography gutterBottom variant="h5">
-            Personal site
+            Mauricio Projects
           </Typography>
           <Stack
             direction="row"
