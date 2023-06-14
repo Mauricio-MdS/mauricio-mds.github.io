@@ -23,11 +23,11 @@ function Portfolio() {
       <Typography variant="h3" component="h2" gutterBottom>
         Projects
       </Typography>
-      <Stack direction='row' flexWrap='wrap' justifyContent='center' gap={2}>
-        <Card component="article" sx={{maxWidth: 400}}>
+      <Stack direction="row" flexWrap="wrap" justifyContent="center" gap={2}>
+        <Card component="article" sx={{ maxWidth: 400 }}>
           <CardContent>
             <CardMedia sx={{ height: 140 }} image={portfolioImg} title="" />
-            <Typography gutterBottom variant="h5">
+            <Typography gutterBottom variant="h5" component="h3">
               Mauricio Projects
             </Typography>
             <Stack
