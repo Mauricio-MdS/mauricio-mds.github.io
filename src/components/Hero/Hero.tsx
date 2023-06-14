@@ -1,9 +1,10 @@
 import React from "react";
 import { Avatar, Card, Grid, Stack, Typography } from "@mui/material";
-import hero200 from "./hero200.png";
-import hero300 from "./hero300.png";
-import hero400 from "./hero400.png";
-import hero500 from "./hero500.png";
+import hero200 from "./assets/hero200.png";
+import hero300 from "./assets/hero300.png";
+import hero400 from "./assets/hero400.png";
+import hero500 from "./assets/hero500.png";
+import Contact from "./Contact/Contact";
 
 function Hero() {
   return (
@@ -42,6 +43,7 @@ function Hero() {
               code. Explore my portfolio to see some of my recent projects and
               feel free to get in touch.
             </Typography>
+            <Contact/>
           </Grid>
         </Grid>
       </Card>
