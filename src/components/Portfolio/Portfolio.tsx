@@ -16,18 +16,17 @@ function Portfolio() {
     <Stack
       spacing={3}
       component="section"
-      textAlign="center"
       alignItems="center"
       p="16px"
     >
       <Typography variant="h3" component="h2" gutterBottom>
         Projects
       </Typography>
-      <Stack direction="row" flexWrap="wrap" justifyContent="center" gap={2}>
-        <Card component="article" sx={{ maxWidth: 400 }}>
+      <Stack direction='row' flexWrap='wrap' justifyContent='center' gap={2}>
+        <Card component="article" sx={{maxWidth: 400}}>
           <CardContent>
             <CardMedia sx={{ height: 140 }} image={portfolioImg} title="" />
-            <Typography gutterBottom variant="h5" component="h3">
+            <Typography gutterBottom variant="h5" component='h3' align="center">
               Mauricio Projects
             </Typography>
             <Stack
