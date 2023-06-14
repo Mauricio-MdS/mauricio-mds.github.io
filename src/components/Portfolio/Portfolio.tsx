@@ -9,7 +9,7 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
-import portfolioImg from "./assets/portfolio.jpg";
+import portfolioImg from "./assets/portfolio.avif";
 
 function Portfolio() {
   return (

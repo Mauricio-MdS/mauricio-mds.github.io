@@ -1,9 +1,9 @@
 import React from "react";
 import { Avatar, Card, Grid, Stack, Typography } from "@mui/material";
-import hero200 from "./assets/hero200.png";
-import hero300 from "./assets/hero300.png";
-import hero400 from "./assets/hero400.png";
-import hero500 from "./assets/hero500.png";
+import hero200 from "./assets/hero200.webp";
+import hero300 from "./assets/hero300.webp";
+import hero400 from "./assets/hero400.webp";
+import hero500 from "./assets/hero500.webp";
 import Contact from "./Contact/Contact";
 
 function Hero() {
