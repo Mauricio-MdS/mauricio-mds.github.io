@@ -30,10 +30,10 @@ function Hero() {
             />
           </Grid>
           <Grid item xs={12} sm={7} md={9} p={1}>
-            <Typography variant="h2" content="h1" gutterBottom>
+            <Typography variant="h2" component="h1" gutterBottom>
               Full Stack Developer
             </Typography>
-            <Typography variant="h5" content="body1">
+            <Typography variant="h5" component="p">
               Welcome! I'm Mauricio, a web developer specializing in building
               dynamic and user-friendly web applications. My skillset includes
               Javascript, Typescript, React, Node, and Java. Whether it's

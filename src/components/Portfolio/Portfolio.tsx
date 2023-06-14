@@ -20,13 +20,13 @@ function Portfolio() {
       alignItems="center"
       p="16px"
     >
-      <Typography variant="h2" content="h2" gutterBottom>
+      <Typography variant="h2" component="h2" gutterBottom>
         How I code
       </Typography>
       <Card component="article">
         <CardContent>
           <CardMedia sx={{ height: 140 }} image={githubImg} title="" />
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h5">
             Personal site
           </Typography>
           <Stack
