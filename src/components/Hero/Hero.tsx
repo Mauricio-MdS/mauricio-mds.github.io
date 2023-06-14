@@ -33,7 +33,7 @@ function Hero() {
             <Typography variant="h2" component="h1" gutterBottom>
               Full Stack Developer
             </Typography>
-            <Typography variant="h5" component="p">
+            <Typography variant="h5" component="p" align="justify" p={2}>
               Welcome! I'm Mauricio, a web developer specializing in building
               dynamic and user-friendly web applications. My skillset includes
               Javascript, Typescript, React, Node, and Java. Whether it's
