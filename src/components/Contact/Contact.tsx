@@ -7,7 +7,7 @@ import ContactButton from "./ContactButton";
 function Contact() {
   return (
     <Stack alignItems="center" spacing={3} component="section" textAlign="center">
-      <Typography variant="h2" component="h2" gutterBottom>
+      <Typography variant="h3" component="h2" gutterBottom>
         Contact me
       </Typography>
       <Stack direction="row" spacing={1}>

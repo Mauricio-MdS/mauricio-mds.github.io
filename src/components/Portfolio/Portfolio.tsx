@@ -20,7 +20,7 @@ function Portfolio() {
       alignItems="center"
       p="16px"
     >
-      <Typography variant="h2" component="h2" gutterBottom>
+      <Typography variant="h3" component="h2" gutterBottom>
         How I code
       </Typography>
       <Card component="article">
