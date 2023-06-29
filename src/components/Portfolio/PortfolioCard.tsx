@@ -22,15 +22,16 @@ function PortfolioCard({
   return (
     <Card component="article" sx={{ maxWidth: 400 }}>
       <CardContent>
-        <CardMedia sx={{ height: 140 }} image={image} title="" />
+        <CardMedia sx={{ height: 140, backgroundSize: "cover" }} image={image} title="" />
         <Typography gutterBottom variant="h5" component="h3" align="center">
           {title}
         </Typography>
         <Stack
           direction="row"
-          justifyContent="center"
           spacing={1}
           marginBottom="8px"
+          flexWrap="wrap"
+          rowGap={0.5}
         >
           {technologies.map((tech) => (
             <Chip label={tech} color="info" size="small" />
