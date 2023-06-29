@@ -35,15 +35,15 @@ function Hero() {
               Full Stack Developer
             </Typography>
             <Typography variant="h6" component="p" align="left" p={2}>
-              Welcome! I'm Mauricio, a web developer specializing in building
-              dynamic and user-friendly web applications. My skillset includes
-              Javascript, Typescript, React, Node, and Java. Whether it's
-              creating intuitive front-end interfaces or designing efficient
-              back-end systems, I'm dedicated to bringing ideas to life through
-              code. Explore my portfolio to see some of my recent projects and
-              feel free to get in touch.
+              I am a web developer specialized in creating dynamic and
+              user-friendly web applications. I am proficient in the MERN stack
+              (MongoDB, Express.js, React.js, and Node.js) and other
+              technologies. As a versatile developer, I am enthusiastic about
+              tackling challenges on both the front-end and back-end. Explore my
+              portfolio to see some of my recent projects and feel free to get
+              in touch.
             </Typography>
-            <Contact/>
+            <Contact />
           </Grid>
         </Grid>
       </Card>
