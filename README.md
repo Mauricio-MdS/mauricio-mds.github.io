@@ -1,6 +1,6 @@
 # Mauricio Silva Portfolio
 
-Welcome to my personal portfolio repository! This repository showcases my projects. Although there isn't much content at the moment, I will regularly update it with my latest projects as they are launched.
+Welcome to my personal portfolio repository! This repository showcases some of my recent projects.
 
 ## Deployed site
 
