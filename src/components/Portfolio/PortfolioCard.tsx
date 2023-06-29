@@ -10,6 +10,7 @@ import {
   Typography,
 } from "@mui/material";
 import { PortfolioType } from "./PortfolioType";
+import { AlignVerticalCenter } from "@mui/icons-material";
 
 function PortfolioCard({
   description,
@@ -20,9 +21,21 @@ function PortfolioCard({
   title,
 }: PortfolioType) {
   return (
-    <Card component="article" sx={{ maxWidth: 400 }}>
+    <Card
+      component="article"
+      sx={{
+        maxWidth: 400,
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+      }}
+    >
+      <CardMedia
+        sx={{ height: 140, backgroundSize: "cover" }}
+        image={image}
+        title=""
+      />
       <CardContent>
-        <CardMedia sx={{ height: 140, backgroundSize: "cover" }} image={image} title="" />
         <Typography gutterBottom variant="h5" component="h3" align="center">
           {title}
         </Typography>
