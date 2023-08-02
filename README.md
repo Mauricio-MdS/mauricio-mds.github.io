@@ -1,10 +1,10 @@
 # Mauricio Silva Portfolio
 
-Welcome to my personal portfolio repository! This repository showcases some of my recent projects.
+This is the first version of my portfolio page.
 
-## Deployed site
+## Updated portfolio
 
-You can view the live version at [https://mauricio-mds.github.io](https://mauricio-mds.github.io)
+You can check the [newer version built with Next.js](https://github.com/Mauricio-MdS/portfolio-next).
 
 ## Technologies used
 
